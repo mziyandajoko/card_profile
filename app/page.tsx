@@ -1,9 +1,10 @@
-import Card from "./components/page"
+import Card from '@/app/components/card/page';
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-       <Card />
+      <Card />      
     </main>
   )
 }
+  

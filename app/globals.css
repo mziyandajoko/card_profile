@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --light-green: #c8e7c9 ;
+  --primary-color: #000;
+  --white-color: #FFFFFF;
+  --green-color: #2e7d32;
+}
+
+
+body {
+  color: var(--primary-color);
+  background: var(--light-green); 
+}
+
+.card{
+  background-color: var(--white-color);
+  border-radius: 20px;
+}
+.card__contact{
+  background-color: var(--green-color);
+}
