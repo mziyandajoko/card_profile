@@ -1,12 +1,10 @@
-import { FaLinked,FaGithub, FaInbox, FaLinkedin} from 'react-icons/fa';
-
-
+import {FaGithub, FaInbox, FaLinkedin} from 'react-icons/fa';
 import Image from 'next/image';
 const card = () => {
   return (
-    <div className='card min-h-full overflow-clip min-w-full'>
-    <div className='flex justify-between'>
-      <div className='card__contact flex-row align-text-bottom p-5 text-white'>
+    <div className='card min-h-full overflow-clip'>
+    <div className='grid grid-cols-2 justify-between'>
+      <div className='card__contact w-48 relative pt-32 p-5 text-white'>
         <div>
             <h5 className='py-2'>Email</h5>
             <p>joko.mzee@gmail.com</p>
@@ -23,10 +21,11 @@ const card = () => {
 
 
         </div>
+<div className='bg-slate-50'>
+
+       <Image className='p-2 absolute min-h-full  top-5 left-52' alt="developer image" src={`/images/developer.jpeg`}  width={500}
+      height={900}/>
       </div>
-      <div>
-       <Image className='p-2' alt="developer image" src={`/images/developer.jpeg`}  width={500}
-      height={700}/>
       </div>
       <div className='py-5'>
       <h1 className='text-4xl font-bold'>Mziyanda Joko</h1>
