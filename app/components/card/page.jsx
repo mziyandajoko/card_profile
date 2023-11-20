@@ -4,7 +4,7 @@ const card = () => {
   return (
     <div className='card min-h-full overflow-clip'>
     <div className='grid grid-cols-2 justify-between'>
-      <div className='card__contact w-48 relative pt-32 p-5 text-white'>
+      <div className='card__contact w-80 relative pt-32 pb-24 p-5  text-white'>
         <div>
             <h5 className='py-2'>Email</h5>
             <p>joko.mzee@gmail.com</p>
@@ -18,15 +18,15 @@ const card = () => {
           <FaInbox />
           <FaGithub />
           <FaLinkedin />
-
-
         </div>
-<div className='bg-slate-50'>
 
-       <Image className='p-2 absolute min-h-full top-5 left-52' alt="developer image" src={`/images/developer.jpeg`}  width={500}
-      height={900}/>
-      </div>
-      </div>
+       <Image className='p-2 pb-24 absolute min-h-full max-w-[100%] left-52 top-5'
+        alt="developer image" 
+        src={`/images/developer.jpeg`} 
+        width={300}
+        height={100}/>
+        </div>
+
       <div className='py-5'>
       <h1 className='text-4xl font-bold'>Mziyanda Joko</h1>
       <p className='text-lg font-semibold'>Front-end Developer . Cape Town</p>
