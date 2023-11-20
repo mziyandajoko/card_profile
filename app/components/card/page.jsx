@@ -23,7 +23,7 @@ const card = () => {
         </div>
 <div className='bg-slate-50'>
 
-       <Image className='p-2 absolute min-h-full  top-5 left-52' alt="developer image" src={`/images/developer.jpeg`}  width={500}
+       <Image className='p-2 absolute min-h-full top-5 left-52' alt="developer image" src={`/images/developer.jpeg`}  width={500}
       height={900}/>
       </div>
       </div>
