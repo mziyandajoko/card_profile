@@ -22,3 +22,7 @@ body {
 .card__contact{
   background-color: var(--green-color);
 }
+footer{
+  background-color: var(--green-color);
+  
+}
