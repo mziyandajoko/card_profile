@@ -9,6 +9,9 @@
   --green-color: #2e7d32;
 }
 
+.color-green{
+  color: var(--green-color);
+}
 
 body {
   color: var(--primary-color);
