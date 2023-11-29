@@ -6,7 +6,7 @@ const card = () => {
     <div className='grid grid-cols-2'>
       <div className='w-80'>
 
-      <div className='card__contact relative pt-32 pb-24 p-5  text-white'>
+      <div className='card__contact relative pt-32 p-5  text-white'>
           <div>
               <h5 className=''>Email</h5>
               <p>joko.mzee@gmail.com</p>
@@ -17,7 +17,7 @@ const card = () => {
           </div>
          
 
-        <Image className='p-2 pb-24 absolute min-h-full max-w-[100%] left-52 top-5'
+        <Image className='p-2 absolute min-h-full max-w-[100%] left-52 top-5'
           alt="developer image" 
           src={`/images/developer.jpeg`} 
           width={300}
@@ -25,16 +25,18 @@ const card = () => {
           </div>
           <Footer />
           </div>
-        <div className='py-5'>
-          <h1 className='text-4xl font-bold'>Mziyanda Joko</h1>
-          <p className='text-lg font-semibold'>Front-end Developer . Cape Town</p>
-          <p className='text-sm'>Lorem ipsum dolor sit amet consectetur, 
+        <div className='py-5 pr-5'>
+          <h1 className='text-2xl font-bold'>Mziyanda Joko</h1>
+          <p className='text-sm font-semibold leading-10'>Front-end Developer . Cape Town</p>
+          <p className='text-xs leading-5'>Lorem ipsum dolor sit amet consectetur, 
           adipisicing elit. Itaque eos natus ipsam eius distinctio ullam quibusdam 
           tempore commodi provident maxime, consectetur quo sit consequuntur unde ipsa 
+          voluptatem dolorem 
+          consectetur quo sit consequuntur unde ipsa 
           voluptatem dolorem  sint et eaque deserunt praesentium excepturi.
           Laborum nihil vitae quaerat eos nam.</p>
-        <h3 className='text-lg font-semibold'>Workign with technologies:</h3>
-        <ul className='text-sm'>
+        <h3 className='text-sm font-semibold leading-10'>Workign with technologies:</h3>
+        <ul className='text-xs leading-6'>
           <li>Flutter</li>
           <li>React</li>
           <li>WordPress</li>
