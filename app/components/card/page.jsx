@@ -5,28 +5,21 @@ const card = () => {
     <div className='card min-h-full overflow-clip'>
     <div className='grid grid-cols-2'>
       <div className='w-80'>
-
       <div className='card__contact relative pt-32 p-5  text-white'>
-          <div>
               <h5 className='text-sm font-semibold leading-10'>Email</h5>
               <p className='text-xs leading-5'>joko.mzee@gmail.com</p>
-          </div>
-          <div>
               <h5 className='text-sm font-semibold leading-10'>Phone</h5>
               <p className='text-xs leading-5' tell="062 4204 382">062 4204 382</p>
-          </div>
-         
-
-        <Image className='p-2 absolute min-h-full max-w-[100%] left-52 top-7'
+        <Image className='p-2 absolute min-h-full left-52 top-7'
           alt="developer image" 
           src={`/images/developer.jpeg`} 
           width={300}
-          height={100}/>
+          height={300}/>
           </div>
           <Footer />
           </div>
         <div className='py-5 pr-5'>
-          <h1 className='text-2xl font-bold leading-8 color-green'>Mziyanda Joko</h1>
+          <h1 className='text-2xl pt-3 font-bold leading-8 color-green'>Mziyanda Joko</h1>
           <p className='text-sm font-semibold leading-10'>Front-end Developer . Cape Town</p>
           <p className='text-xs leading-5'>Lorem ipsum dolor sit amet consectetur, 
           adipisicing elit. Itaque eos natus ipsam eius distinctio ullam quibusdam 
