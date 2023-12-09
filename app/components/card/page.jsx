@@ -2,7 +2,7 @@ import Footer from '@/app/components/footer/page'
 import Image from 'next/image';
 const card = () => {
   return (
-    <div className='bg-white rounded-lg overflow-clip relative'>
+    <div className='bg-white rounded-lg overflow-clip relative drop-shadow-xl hover:drop-shadow-2xl hover:scale-105  transition ease-in-out duration-700'>
    <div className=" gap-5 flex flex-col container items-center justify-between  md:items-start md:flex-row-reverse md:gap-10">
     
       <Image className='w-[100%] h-[400px] left-52 top-7 md:h-auto md:w-1/4  md:absolute'
