@@ -40,7 +40,8 @@ const card = () => {
       <p className='text-xs leading-5'>joko.mzee@gmail.com</p>
       <h5 className='text-sm font-semibold leading-10'>Phone</h5>
       <p className='text-xs leading-5' tell="062 4204 382">062 4204 382</p>
-      <Footer />
+      
+      <Footer /> 
       </div>
     </div>
 
